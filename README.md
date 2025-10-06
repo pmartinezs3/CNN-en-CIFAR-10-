@@ -4,7 +4,6 @@ Proyecto de clasificación de **CIFAR‑10** con una **CNN** que incluye **Batch
 **data augmentation** y callbacks (**EarlyStopping**, **ReduceLROnPlateau**, **ModelCheckpoint**).
 Se registran las curvas de *accuracy/loss*, el **learning rate** por época, la **matriz de confusión** y una grilla de **errores**.
 
-> Código principal: `Actividad5.py` (basado en la sesión de clase).
 
 ## Requisitos
 - Python 3.10+
@@ -34,8 +33,7 @@ El script descarga automáticamente **CIFAR‑10**, entrena por ~30 épocas y gu
 - `reports/errors.png` — Mosaico de ejemplos mal clasificados.
 
 ## Notas
-- Puedes cambiar el optimizador (Adam / RMSProp / SGD + momentum) e hiperparámetros dentro de `Actividad5.py`.
-- Si usas GPU, instala además: `pip install tensorflow[and-cuda]` (según tu entorno).
+- Si usas GPU, instala además: `pip install tensorflow[and-cuda]` 
 
 ## Licencia
 MIT © Pamela Martinez
